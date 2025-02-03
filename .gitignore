@@ -1,0 +1,75 @@
+# Python compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+
+# Environment and dependency management
+.env
+*.venv/
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Machine learning files and models
+*.h5
+*.ckpt
+*.onnx
+*.tflite
+*.pt
+*.bin
+
+# Hugging Face Transformers cache
+cache/
+transformers_cache/
+datasets_cache/
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Output files
+*.csv
+*.tsv
+*.xlsx
+*.db
+*.sqlite
+
+# Generated files
+*.html
+*.pdf
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.manifest
+*.spec
